@@ -73,3 +73,14 @@ The ability to parse custom phrases without explicit downstream model retraining
 | **🔍 Zero-Shot Defect Detection in Manufacturing** | Traditional vision systems fail when encountering unknown, rare defects. Open-vocabulary models can actively screen a product assembly line for "micro-fractures," "discoloration," or "dents" via dynamic text prompts without requiring prior defect image annotations. | 2023 | [WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation](https://arxiv.org/abs/2303.14814) |
 | **🤖 Autonomous Robotic Manipulation & Navigation** | Permits edge warehouse robots to understand un-indexed sorting tasks. A robot instructed to "find the red plush toy beneath the box" can utilize continuous OVM text-grounding to safely navigate and retrieve highly customized items. | 2022 | [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances (SayCan)](https://arxiv.org/abs/2204.01691) |
 | **🛒 E-Commerce Search-to-Image Mapping** | Enhances catalog tagging automatically. OVM systems read millions of uncurated product images and index them with long-tail descriptive metadata (e.g., "bohemian floral-print summer dress"), drastically improving natural language user search performance. | 2022 | [FashionCLIP: Connecting Language and Images for Product Representations](https://arxiv.org/abs/2204.03972) |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Open-Vocabulary-Models&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Open-Vocabulary-Models&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Open-Vocabulary-Models&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Open-Vocabulary-Models&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
