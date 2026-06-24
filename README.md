@@ -7,9 +7,15 @@ Open-Vocabulary Models represent a paradigm shift in computer vision and scene u
 
 ## 1. The Chronological Evolution
 
-The progression of vocabulary flexibility in vision models maps a clear transition from strict categorical constraints to fluid, language-driven scene understanding.
 
-[Closed-Vocabulary] ---------> [Zero-Shot (Traditional)] ---------> [Open-Vocabulary (OVM)](Fixed COCO/VOC Labels)         (Rigid Attribute Vectors)           (Shared Vision-Language Spaces)
+```mermaid
+flowchart LR
+    A["Closed-Vocabulary<br/>(Fixed COCO/VOC Labels)"] ---> B["Zero-Shot (Traditional)<br/>(Rigid Attribute Vectors)"] 
+    B ---> C["Open-Vocabulary (OVM)<br/>(Shared Vision-Language Spaces)"] 
+```
+
+The progression of vocabulary flexibility in vision models maps a clear transition from strict categorical constraints to fluid, language-driven scene understanding.
+                    
 
 *   **Closed-Vocabulary Era (The Deep Learning Dawn, ~2012–2020)**
     *   *Concept:* Relying on heavily annotated bounding boxes or pixel masks for explicit datasets (e.g., ImageNet, MS-COCO, Pascal VOC). The model fails to generalize if an object lacks a predefined numerical index.
